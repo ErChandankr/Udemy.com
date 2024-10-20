@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy.com</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- header and Navbar -->
+    <header>
+        <img src="../Assets/udemy logo.svg" alt="">
+        <nav>
+            <a href="#">Categories</a>
+            <!-- <i class="fa-solid fa-magnifying-glass"></i> -->
+            <input type="search" placeholder="Search for anything">
+            <a href="#">Plans &amp; pricing</a>
+            <a href="#">Udemy Business</a>
+            <a href="#">Teach on Udemy</a>
+        </nav>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <button class="login">Log in</button>
+        <button class="sign-up">Sign Up</button>
+        <button class="glob"><i class="fa-solid fa-globe"></i></button>
+    </header>
+
+    <main>
+        <!-- Carousel hero section -->
+        <section class="hero">
+            <div id="carousel" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../Assets/hero1.jpg" class="d-block w-100" alt="image">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../Assets/hero2.jpg" class="d-block w-100" alt="image">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon bg-dark" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <div class="skills-need">
+            <h2>All the skills you need in one place</h2>
+            <p>From critical skills to technical topics, Udemy supports your professional development.</p>
+            <div class="skill-need-menu">
+                <span>Web Development</span>
+                <span>IT Certification</span>
+                <span>Leadership</span>
+                <span>Data Science</span>
+                <span>Communication</span>
+                <span>Business Analyst &amp; Intelligence</span>
+                <hr>
+            </div>
+        </div>
+
+        <!-- Courses -->
+        <div class="div">
+            <div class="courses-menu">
+                <div class="course-list">
+                    <div class="course">
+                        <h6>Web Development</h6>
+                        <p>13.3M+ learners</p>
+                    </div>
+                    <div class="course">
+                        <h6>JavaScript</h6>
+                        <p>17.7M+ learners</p>
+                    </div>
+                    <div class="course">
+                        <h6>React Js</h6>
+                        <p>7M+ learners</p>
+                    </div>
+                    <div class="course">
+                        <h6>Angular</h6>
+                        <p>4M+ learners</p>
+                    </div>
+                    <div class="course">
+                        <h6>Java</h6>
+                        <p>15.5M+ learners</p>
+                    </div>
+                    <div class="course">
+                        <h6>Android Development</h6>
+                        <p>8M+ learners</p>
+                    </div>
+                    <div class="course">
+                        <h6>IOS Development</h6>
+                        <p>4M+ learners</p>
+                    </div>
+                    <div class="course">
+                        <h6>CSS</h6>
+                        <p>9M+ learners</p>
+                    </div>
+                </div>
+
+                <!-- Course card details -->
+                <div class="course-card">
+                    <div class="card">
+                        <img src="../Assets/card1.jpg" alt="">
+                        <div class="card-details">
+                            <h6>The Advanced Web Developer Bootcamp</h6>
+                            <p class="teacher">Colt Steele, Elie Schoppik, Tim Garcia...</p>
+                            <div class="rating">
+                                <span class="heading">4.6</span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <span>(9,346)</span>
+                            </div>
+                            <p class="price">&#x20B9; 3,499</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../Assets/card2.png" alt="" style="height: 164px;">
+                        <div class="card-details">
+                            <h6>Ultimate Web Designer &amp; Web Developer Course</h6>
+                            <p class="teacher">Brand Hussey</p>
+                            <div class="rating">
+                                <span class="heading">4.5</span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <span>(14,557)</span>
+                            </div>
+                            <p class="price">&#x20B9; 3,999</p>
+                            <p class="sellbtn">Bestseller</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../Assets/card4.jpg" alt="">
+                        <div class="card-details">
+                            <h6>The Full Stack Web Developer Bootcamp (Frontend &amp; Backend)</h6>
+                            <p class="teacher">Faisal Zamir, Jafri Code</p>
+                            <div class="rating">
+                                <span class="heading">4.4</span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <span>(497)</span>
+                            </div>
+                            <p class="price">&#x20B9; 2,699</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="../Assets/card3.png" alt="" style="height: 164px;">
+                        <div class="card-details">
+                            <h6>Become a Certified Web Developer: HTML, CSS and...</h6>
+                            <p class="teacher">SkillSprints Inc., Mark Lassoff</p>
+                            <div class="rating">
+                                <span class="heading">4.5</span>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <span>(3,890)</span>
+                            </div>
+                            <p class="price">&#x20B9; 3,499</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="shows">Show all Web Development courses</button>
+            </div>
+        </div>
+        <div class="logos">
+            <p>Trusted by over 16,000 companies and millions of learners around the world</p>
+            <div class="logo-img">
+                <img src="../Assets/logo1.svg" alt="">
+                <img src="../Assets/logo2.svg" alt="">
+                <img src="../Assets/logo3.svg" alt="">
+                <img src="../Assets/logo4.svg" alt="">
+                <img src="../Assets/logo5.svg" alt="">
+                <img src="../Assets/logo6.svg" alt="">
+                <img src="../Assets/logo7.svg" alt="">
+                <img src="../Assets/logo8.svg" alt="">
+            </div>
+        </div>
+
+        <!-- Learning Focused -->
+        <div class="learning-focused">
+            <div class="learning">
+                <h1>Learning focused on your goals</h1>
+                <div class="learn">
+                    <div class="hands-on">
+                        <div class="learn-img">
+                            <img src="../Assets/hands-on-practice.png" alt="">
+                        </div>
+                        <div class="learn-detail">
+                            <h3>Hands-on training</h3>
+                            <p>Upskill effectively with AI-powered coding exercises, practice tests, and quizzes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="learn">
+                    <div class="learn-img">
+                        <img src="../Assets/certificate.png" alt="">
+                    </div>
+                    <div class="learn-detail">
+                        <h3>Certification prep</h3>
+                        <p>Prep for industry-recognized certifications by solving real-world challenges and earn
+                            badges
+                            along the way.</p>
+                    </div>
+                </div>
+                <div class="learn">
+                    <div class="learn-img">
+                        <img src="../Assets/empty-state-1.png" alt="">
+                    </div>
+                    <div class="learn-detail">
+                        <h3>Insights and analytics</h3>
+                        <p>Fast-track goals with advanced insights plus a dedicated customer success team to help drive
+                            effective learning.</p>
+                    </div>
+                </div>
+                <div class="learn">
+                    <div class="learn-img">
+                        <img src="../Assets/organizations-2.png" alt="">
+                    </div>
+                    <div class="learn-detail">
+                        <h3>Customizable content</h3>
+                        <p>Create tailored learning paths for team and organization goals and even host your own content
+                            and
+                            resources.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="learning-img">
+                <img src="../Assets/learning img.png" alt="image">
+            </div>
+        </div>
+        <div class="accelerate-grouth">
+            <div class="accelerate-heading">
+                <h1>Accelerate growth — for you or your organization</h1>
+                <p>Reach goals faster with one of our plans or programs. Try one free today or contact sales to learn
+                    more.</p>
+            </div>
+            <div class="plan-card">
+                <div class="plans">
+                    <div class="plane-name">
+                        <h3>Personal Plan</h3>
+                        <p>For you</p>
+                        <p><i class="fa-solid fa-user"></i>Individuals</p>
+                    </div>
+                    <div class="plan-detail">
+                        <h5>Starting at $850.00 per month</h5>
+                        <p>Billed monthly or annually. Cancel anytime.</p>
+                        <button>Start Subscription <i class="fa-solid fa-arrow-right"></i></button>
+                        <div class="para">
+                            <p><i class="fa-regular fa-circle-check"></i>Access to 12,000+ top courses</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Certification prep</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Goal-focused recommendations</p>
+                            <p><i class="fa-regular fa-circle-check"></i>AI-powered coding exercises</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="plans">
+                    <div class="plane-name">
+                        <h3>Team Plan</h3>
+                        <p>For your team</p>
+                        <p><i class="fa-solid fa-user-group"></i></i>Individuals</p>
+                    </div>
+                    <div class="plan-detail">
+                        <h5>₹1,167 a month per user</h5>
+                        <p>Billed annually. Cancel anytime.</p>
+                        <button>Start Subscription <i class="fa-solid fa-arrow-right"></i></button>
+                        <div class="para">
+                            <p><i class="fa-regular fa-circle-check"></i>Access to 12,000+ top courses</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Certification prep</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Goal-focused recommendations</p>
+                            <p><i class="fa-regular fa-circle-check"></i>AI-powered coding exercises</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Analytics and adoption reports</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="plans">
+                    <div class="plane-name">
+                        <h3>Enterprise Plan</h3>
+                        <p>For your whole organization</p>
+                        <p><i class="fa-solid fa-user-group"></i>Individuals</p>
+                    </div>
+                    <div class="plan-detail">
+                        <h5>Contact sales for pricing</h5>
+                        <p>&nbsp;</p>
+                        <button>Start Subscription <i class="fa-solid fa-arrow-right"></i></button>
+                        <div class="para">
+                            <p><i class="fa-regular fa-circle-check"></i>Access to 27,000+ top courses</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Certification prep</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Goal-focused recommendations</p>
+                            <p><i class="fa-regular fa-circle-check"></i>AI-powered coding exercises</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Advanced analytics and insights</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Dedicated customer success team</p>
+                            <p><i class="fa-regular fa-circle-check"></i>International course collection featuring 15
+                                languages</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Customizable content</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Hands-on tech training with add-on</p>
+                            <p><i class="fa-regular fa-circle-check"></i>Strategic implementation services with add-on
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Achievement -->
+        <div class="achievement">
+            <div class="head">
+                <h1>See what others are achieving through learning</h1>
+            </div>
+            <div class="achieve-card">
+                <div class="card">
+                    <div class="special-card">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Udemy was rated the <strong>most popular online course or certification program</strong> for
+                            learning how to code according to <a href="">StackOverflow’s 2023 Developer survey.</a></p>
+                        <img src="../Assets/card logo1.svg" alt="">
+                        <p>37,076 responses collected</p>
+                        <span class="view">View Web Development Course <i class="fa-solid fa-chevron-right"></i></span>
+                    </div>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Udemy was truly <strong>a game-changer and a great guide</strong> for me as we brought Dimensional to life.</p>
+                    <div class="images">
+                        <img src="../Assets/card img1.jpeg" alt="">
+                        <div class="parag">
+                            <p>Alvin Lim</p>
+                            <p>Technical Co-Founder, CTO at</p>
+                            <p>Dimensional</p>
+                        </div>
+                    </div>
+                    <span class="view">View Web Development Course <i class="fa-solid fa-chevron-right"></i></span>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>Udemy gives you the ability to be persistent. I learned exactly what I needed to know in the real world. It helped me sell myself to <strong>get a new role.</strong></p>
+                    <div class="images">
+                        <img src="../Assets/card img2.jpeg" alt="">
+                        <div class="parag">
+                            <p>William A. Wachlin</p>
+                            <p>Partner Account Manager at Amazon</p>
+                            <p>Web Services</p>
+                        </div>
+                    </div>
+                    <p class="view">View Web Development Course <i class="fa-solid fa-chevron-right"></i></p>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-quote-left"></i>
+                    <p>With Udemy Business employees were able to marry the two together, technology and consultant soft skills... to help <strong>drive their careers forward.</strong></p>
+                    <div class="images">
+                        <img src="../Assets/card img3.png" alt="">
+                        <div class="parag">
+                            <p>Ian Stevens</p>
+                            <p>Head of Capability Development,</p>
+                            <p>North America at Publicis Sapient</p>
+                        </div>
+                    </div>
+                    <p class="view">View Web Development Course <i class="fa-solid fa-chevron-right"></i></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="banner">
+            <div class="top-trend">
+                <h2>Top trends for the future of work</h2>
+                <p>GenAI and leadership are at the core of today's skills-based economy. Get the 2024 Global Learning &
+                    Skills Trends Report to learn more.</p>
+                <button>Get the report <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <img src="../Assets/trends img.png" alt="">
+        </div>
+
+        <!-- learners and viewers same as course and details-->
+        <div class="learners">
+            <h1>learners and viewers</h1>
+            <div class="course-card">
+                <div class="card">
+                    <img src="../Assets/card1.jpg" alt="">
+                    <div class="card-details">
+                        <h6>The Advanced Web Developer Bootcamp</h6>
+                        <p class="teacher">Colt Steele, Elie Schoppik, Tim Garcia...</p>
+                        <div class="rating">
+                            <span class="heading">4.6</span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                            <span>(9,346)</span>
+                        </div>
+                        <p class="price">&#x20B9; 3,499</p>
+                        <p class="sellbtn">Bestseller</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Assets/card2.png" alt="" style="height: 164px;">
+                    <div class="card-details">
+                        <h6>Ultimate Web Designer &amp; Web Developer Course</h6>
+                        <p class="teacher">Brand Hussey</p>
+                        <div class="rating">
+                            <span class="heading">4.5</span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                            <span>(14,557)</span>
+                        </div>
+                        <p class="price">&#x20B9; 3,999</p>
+                        <p class="sellbtn">Bestseller</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Assets/card4.jpg" alt="">
+                    <div class="card-details">
+                        <h6>The Full Stack Web Developer Bootcamp (Frontend &amp; Backend)</h6>
+                        <p class="teacher">Faisal Zamir, Jafri Code</p>
+                        <div class="rating">
+                            <span class="heading">4.4</span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                            <span>(497)</span>
+                        </div>
+                        <p class="price">&#x20B9; 2,699</p>
+                        <p class="sellbtn">Bestseller</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../Assets/card3.png" alt="" style="height: 164px;">
+                    <div class="card-details">
+                        <h6>Become a Certified Web Developer: HTML, CSS and...</h6>
+                        <p class="teacher">SkillSprints Inc., Mark Lassoff</p>
+                        <div class="rating">
+                            <span class="heading">4.5</span>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                            <span>(3,890)</span>
+                        </div>
+                        <p class="price">&#x20B9; 3,499</p>
+                        <p class="sellbtn">Bestseller</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="div1">
+            <div class="heading">
+                <h3>Top companies choose <span>Udemy Business</span> to build in-demand career skills.</h3>
+                <div class="logo">
+                    <img src="../Assets/footer logo1.svg" alt="">
+                    <img src="../Assets/logo1.svg" alt="">
+                    <img src="../Assets/logo2.svg" alt="">
+                    <img src="../Assets/logo3.svg" alt="">
+                    <img src="../Assets/footer logo3.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="div2">
+            <div class="subdiv">
+                <div class="column">
+                    <a href="">Udemy Business</a>
+                    <a href="">Teach on Udemy</a>
+                    <a href="">Get the app</a>
+                    <a href="">About us</a>
+                    <a href="">Contact us</a>
+                </div>
+                <div class="column">
+                    <a href="">Udemy Business</a>
+                    <a href="">Teach on Udemy</a>
+                    <a href="">Get the app</a>
+                    <a href="">About us</a>
+                    <a href="">Contact us</a>
+                </div>
+                <div class="column">
+                    <a href="">Udemy Business</a>
+                    <a href="">Teach on Udemy</a>
+                    <a href="">Get the app</a>
+                    <a href="">About us</a>
+                    <a href="">Contact us</a>
+                </div>
+            </div>
+            <button><i class="fa-solid fa-globe"></i> English</button>
+        </div>
+        <div class="div3">
+            <img src="../Assets/white udemy log.svg" alt="">
+            <p>&copy; 2024 Udemy, Inc.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
